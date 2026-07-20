@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida Rápida WYD | Sabor y Calidad en Becerril, Cesar</title>
+    
+    <!-- SEO On-Page Profesional -->
+    <meta name="description" content="Disfruta de la mejor comida rápida en Becerril, Cesar. Hamburguesas jugosas, perros calientes y salchipapas preparadas al instante con ingredientes frescos. ¡Pide ahora!">
+    <meta name="keywords" content="comida rápida becerril, hamburguesas becerril, restaurantes en becerril cesar, comida rapida wyd, domicilios becerril">
+    <meta name="author" content="Maria Del Carmen Medalles Acosta">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://tudominio.com/index.html">
+
+    <!-- SEO Técnico: Schema.org Datos Estructurados para Negocio Local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FastFoodRestaurant",
+      "name": "Comida Rápida WYD",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+      "currenciesAccepted": "COP",
+      "priceRange": "$$",
+      "telephone": "+573002675435",
+      "email": "romielaeslava14@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Cl. 9 # 10-225",
+        "addressLocality": "Becerril",
+        "addressRegion": "Cesar",
+        "addressCountry": "CO"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        ],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    }
+    </script>
+
+    <!-- Tipografía de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Estilos CSS integrados para máxima velocidad de carga (SEO Técnico) -->
+    <style>
+        :root {
+            --primary: #d90429;
+            --secondary: #ffb703;
+            --dark: #2b2d42;
+            --light: #f8f9fa;
+            --text: #333333;
+            --transition: all 0.3s ease;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body { font-family: 'Roboto', sans-serif; color: var(--text); background-color: #ffffff; line-height: 1.6; }
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+        .section-padding { padding: 70px 0; }
+        
+        .btn-primary {
+            display: inline-block;
+            background-color: var(--primary);
+            color: #ffffff;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            box-shadow: 0 4px 15px rgba(217, 4, 41, 0.3);
+        }
+        .btn-primary:hover { background-color: #bf0424; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(217, 4, 41, 0.4); }
+
+        .section-title { text-align: center; margin-bottom: 45px; }
+        .section-title h2 { font-family: 'Poppins', sans-serif; color: var(--dark); font-size: 2.3rem; margin-bottom: 12px; }
+        .section-title p { color: #666; font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+
+        /* Header / Navbar */
+        header { background-color: #ffffff; box-shadow: 0 2px 10px rgba(0,0,0,0.08); position: sticky; top: 0; z-index: 1000; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; height: 80px; }
+        .logo { font-family: 'Poppins', sans-serif; font-size: 1.8rem; font-weight: 700; color: var(--primary); }
+        .logo span { color: var(--secondary); }
+        .nav-links { display: flex; gap: 25px; }
+        .nav-links a { font-weight: 500; font-family: 'Poppins', sans-serif; transition: var(--transition); }
+        .nav-links a:hover { color: var(--primary); }
+        .mobile-btn { display: none; font-size: 1.5rem; background: none; border: none; cursor: pointer; color: var(--dark); }
+
+        /* Hero Section */
+        .hero { 
+            background: linear-gradient(rgba(43, 45, 66, 0.82), rgba(43, 45, 66, 0.82)), url('https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat; 
+            color: #ffffff; 
+            text-align: center; 
+            padding: 120px 0; 
+        }
+        .hero h1 { font-family: 'Poppins', sans-serif; font-size: 3.2rem; margin-bottom: 20px; line-height: 1.2; }
+        .hero p { font-size: 1.2rem; margin-bottom: 35px; max-width: 700px; margin-left: auto; margin-right: auto; color: #e0e0e0; }
+
+        /* Beneficios */
+        .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .benefit-card { background: var(--light); padding: 40px 30px; border-radius: 10px; text-align: center; transition: var(--transition); border-bottom: 4px solid transparent; }
+        .benefit-card:hover { transform: translateY(-5px); border-bottom-color: var(--primary); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+        .benefit-icon { font-size: 3rem; margin-bottom: 20px; }
+        .benefit-card h3 { font-family: 'Poppins', sans-serif; color: var(--dark); margin-bottom: 12px; font-size: 1.3rem; }
+
+        /* Servicios / Menú */
+        .services-bg { background-color: var(--light); }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .service-card { background: #ffffff; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.04); transition: var(--transition); }
+        .service-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(0,0,0,0.08); }
+        .service-img { height: 200px; width: 100%; background-size: cover; background-position: center; }
+        .img-1 { background-image: url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80'); }
+        .img-2 { background-image: url('https://images.unsplash.com/photo-1615719413546-198b25453f85?auto=format&fit=crop&w=600&q=80'); }
+        .img-3 { background-image: url('https://images.unsplash.com/photo-1625937751853-fc39ef649e5a?auto=format&fit=crop&w=600&q=80'); }
+        .service-content { padding: 25px; }
+        .service-content h3 { font-family: 'Poppins', sans-serif; margin-bottom: 10px; color: var(--dark); font-size: 1.3rem; }
+
+        /* Prueba Social Honesta */
+        .proof-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .proof-box { background: var(--light); padding: 35px; border-radius: 10px; border-left: 4px solid var(--secondary); }
+        .proof-box h4 { font-family: 'Poppins', sans-serif; color: var(--dark); font-size: 1.2rem; margin-bottom: 10px; }
+
+        /* Contacto y Transparencia */
+        .contact-wrapper { display: flex; flex-wrap: wrap; gap: 50px; }
+        .contact-info { flex: 1; min-width: 300px; }
+        .contact-info h3 { font-family: 'Poppins', sans-serif; font-size: 1.8rem; margin-bottom: 25px; color: var(--dark); }
+        .info-row { display: flex; margin-bottom: 20px; align-items: flex-start; }
+        .info-icon { font-size: 1.4rem; color: var(--primary); margin-right: 15px; }
+        .info-details strong { display: block; color: var(--dark); margin-bottom: 4px; }
+        
+        .contact-form-box { flex: 1; min-width: 300px; background: var(--light); padding: 40px; border-radius: 10px; }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 500; color: var(--dark); }
+        .form-group input, .form-group textarea { width: 100%; padding: 12px 15px; border: 1px solid #ccc; border-radius: 6px; font-family: 'Roboto', sans-serif; font-size: 1rem; transition: border 0.3s; }
+        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--primary); }
+        
+        #form-alert { display: none; background: #d4edda; color: #155724; padding: 15px; border-radius: 6px; margin-top: 15px; text-align: center; border: 1px solid #c3e6cb; }
+
+        /* Footer */
+        footer { background-color: var(--dark); color: #ffffff; padding: 50px 0 20px; }
+        .footer-cols { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; margin-bottom: 40px; }
+        .footer-col { flex: 1; min-width: 250px; }
+        .footer-col h4 { font-family: 'Poppins', sans-serif; font-size: 1.2rem; margin-bottom: 20px; color: var(--secondary); }
+        .footer-col p, .footer-col a { color: #ccc; display: block; margin-bottom: 10px; transition: color 0.3s; }
+        .footer-col a:hover { color: #fff; }
+        .footer-bottom { text-align: center; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); color: #888; font-size: 0.9rem; }
+
+        /* Responsividad Móvil */
+        @media (max-width: 768px) {
+            .nav-links { display: none; position: absolute; top: 80px; left: 0; width: 100%; background: #fff; flex-direction: column; text-align: center; padding: 25px 0; box-shadow: 0 10px 15px rgba(0,0,0,0.1); }
+            .nav-links.active { display: flex; }
+            .mobile-btn { display: block; }
+            .hero h1 { font-size: 2.3rem; }
+            .section-title h2 { font-size: 1.9rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Comida Rápida <span>WYD</span></a>
+            <button class="mobile-btn" id="mobileMenuBtn" aria-label="Abrir menú">☰</button>
+            <nav class="nav-links" id="navLinks">
+                <a href="#inicio">Inicio</a>
+                <a href="#beneficios">Beneficios</a>
+                <a href="#menu">Menú</a>
+                <a href="#contacto">Contacto y Pedidos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section con CTA enfocado a Google Ads -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>El Auténtico Sabor de la Comida Rápida en Becerril</h1>
+            <p>Ingredientes frescos seleccionados, porciones generosas y preparación inmediata. Pide tu comida favorita directo a domicilio en Becerril, Cesar.</p>
+            <a href="#contacto" class="btn-primary">Ordena tu comida rápida ahora</a>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios" class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>¿Por qué preferir Comida Rápida WYD?</h2>
+                <p>Nos enfocamos en ofrecerte calidad, higiene rigurosa y un servicio cercano todos los días.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🍅</div>
+                    <h3>Ingredientes Frescos</h3>
+                    <p>Trabajamos con insumos locales del día para garantizar excelente sabor y frescura absoluta en cada preparación.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">⏱️</div>
+                    <h3>Atención Ágil</h3>
+                    <p>Sabemos que el hambre no espera. Optimizamos nuestros tiempos en cocina para que disfrutes tu comida sin demoras.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🛡️</div>
+                    <h3>Higiene Garantizada</h3>
+                    <p>Cumplimos estrictos protocolos sanitarios en la manipulación de alimentos para cuidar tu salud y la de tu familia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios / Menú Destacado -->
+    <section id="menu" class="section-padding services-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestro Menú Destacado</h2>
+                <p>Opciones clásicas preparadas al momento con el toque especial de la casa.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img img-1" aria-label="Hamburguesa especial"></div>
+                    <div class="service-content">
+                        <h3>Hamburguesas Especiales</h3>
+                        <p>Carne 100% de res jugosa, pan suave del día, queso fundido, vegetales frescos y nuestras exclusivas salsas artesanales.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img img-2" aria-label="Perro caliente"></div>
+                    <div class="service-content">
+                        <h3>Perros Calientes</h3>
+                        <p>Salchicha de primera calidad, pan tostado perfecto, papitas crujientes, queso costeño y aderezos tradicionales.</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img img-3" aria-label="Salchipapas"></div>
+                    <div class="service-content">
+                        <h3>Salchipapas y Picadas</h3>
+                        <p>Porciones abundantes y crujientes de papas fritas combinadas con salchicha selecta, ideales para compartir o consentir tu antojo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prueba Social (Honesta y Verificable) -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Compromiso y Transparencia Diaria</h2>
+                <p>Nuestro respaldo es el trabajo continuo y honesto cara a cara con nuestra comunidad.</p>
+            </div>
+            <div class="proof-grid">
+                <div class="proof-box">
+                    <h4>Atención Todos los Días</h4>
+                    <p>Abrimos nuestras puertas y canales de atención de lunes a domingo de 8:00 am a 5:00 pm para atender tus pedidos puntualmente.</p>
+                </div>
+                <div class="proof-box">
+                    <h4>Sabor Local Auténtico</h4>
+                    <p>Negocio local orgullosamente establecido en Becerril, brindando un servicio directo, cálido y transparente sin intermediarios engañosos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto e Información de Empresa -->
+    <section id="contacto" class="section-padding services-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto y Pedidos</h2>
+                <p>Envíanos un mensaje rápido con tu solicitud o consulta. Te responderemos de inmediato.</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Información Corporativa</h3>
+                    
+                    <div class="info-row">
+                        <div class="info-icon">👤</div>
+                        <div class="info-details">
+                            <strong>Representante Legal</strong>
+                            Maria Del Carmen Medalles Acosta
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-icon">📍</div>
+                        <div class="info-details">
+                            <strong>Ubicación del Establecimiento</strong>
+                            Cl. 9 # 10-225, Becerril, Cesar, Colombia
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-icon">📞</div>
+                        <div class="info-details">
+                            <strong>Teléfono / WhatsApp</strong>
+                            <a href="tel:3002675435">300 267 5435</a>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-details">
+                            <strong>Correo Electrónico</strong>
+                            <a href="mailto:romielaeslava14@gmail.com">romielaeslava14@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-icon">🕒</div>
+                        <div class="info-details">
+                            <strong>Horario de Atención</strong>
+                            Todos los días de la semana: 8:00 am - 5:00 pm
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-box">
+                    <form id="orderForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Número de teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" required placeholder="Tu número de contacto">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">¿Qué deseas ordenar o consultar?</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Describe tu pedido o requerimiento..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary" style="width: 100%;">Enviar Mensaje de Pedido</button>
+                        <div id="form-alert">¡Mensaje recibido con éxito! Nos pondremos en contacto contigo en breve.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer con Datos Legales -->
+    <footer>
+        <div class="container">
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <h4>Comida Rápida WYD</h4>
+                    <p>Disfruta de la mejor calidad y sabor en Becerril, Cesar.</p>
+                    <p>Administrado por Maria Del Carmen Medalles Acosta.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Legales</h4>
+                    <a href="politica-de-privacidad.html">Política de Privacidad</a>
+                    <a href="terminos-y-condiciones.html">Términos y Condiciones</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto Directo</h4>
+                    <p>Tel: 300 267 5435</p>
+                    <p>Cl. 9 # 10-225, Becerril, Colombia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Comida Rápida WYD. Todos los derechos reservados. Cumplimiento estricto de políticas de destino publicitario.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Integrado -->
+    <script>
+        // Funcionalidad para el menú responsive en móviles
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                if(window.innerWidth <= 768) {
+                    navLinks.classList.remove('active');
+                }
+            });
+        });
+
+        // Simulación controlada y honesta del envío de formulario sin redirecciones extrañas
+        const orderForm = document.getElementById('orderForm');
+        const formAlert = document.getElementById('form-alert');
+
+        orderForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            formAlert.style.display = 'block';
+            orderForm.reset();
+            setTimeout(() => {
+                formAlert.style.display = 'none';
+            }, 6000);
+        });
+    </script>
+</body>
+</html>
